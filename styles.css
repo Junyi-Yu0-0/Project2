@@ -1,10 +1,46 @@
+@font-face {
+  font-family: 'DgNg';
+  src: url(asset/DangerNight.ttf) format('truetype');
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background: DarkViolet;
 }
 
-.square {
+h1 {
+  text-align: center;
+  font-family: 'DgNg', sans-sans-serif;
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'DgNg', sans-sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.bat img{
+  width:100px;
+  height:25px;
+}
+
+.bat1 img{
+  width:300px;
+  height:120px;
+  display: block;
+  margin-left: 80%;
+  margin-right: 20%;
+}
+/* .square {
   height: 50px;
   width: 50px;
   background-color: orange;
-}
+} */
