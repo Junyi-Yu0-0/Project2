@@ -39,3 +39,11 @@ rotate: {
 loop:true,
 delay: 250 // All properties except 'scale' inherit 250ms delay
 });
+
+anime({
+  targets: '.land',
+  height: '20px', // -> from '28px' to '100%',
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  loop: true
+});
